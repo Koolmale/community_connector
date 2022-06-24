@@ -2,9 +2,8 @@
 import React from "react";
 import Link from "next/link";
 
-import IndexNavbar from "components/Navbars/IndexNavbar.js";
-import Footer from "components/Footers/Footer.js";
 import Navbar from "components/Navbars/navbar"
+import Footersmall from "components/Footers/FooterSmall"
 
 export default function Index() {
   return (
@@ -115,10 +114,10 @@ export default function Index() {
                         <i className="fas fa-drafting-compass"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        Current Fundraiser
+                        Who we are
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        Sample text, gonna put description of current fundraiser lland button to link the fundraising page
+                        Quick about note. note does it look better as a colomn or a row?
                       </p>
                     </div>
                   </div>
@@ -131,13 +130,44 @@ export default function Index() {
         </div>
 
       <div>
+      <div className="container mx-auto overflow-hidden pb-20">
+          <div className="flex flex-wrap items-center">
+            <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
+              <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+                <i className="fas fa-sitemap text-xl"></i>
+              </div>
+              <h3 className="text-3xl mb-2 font-semibold leading-normal">
+                Current Fundraiser
+              </h3>
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+                Short description of current fundraiser. Reminder to add image to the right in the next div below. also change href in link below
+              </p>
+              
+              <a
+                href="comconnecter.org"
+                target="_blank"
+                className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
+              >
+                Donate{" "}
+                <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
+              </a>
+            </div>
+
+              <div className="w-full md:w-5/12 px-4 mr-auto ml-auto mt-32">
+              
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div>
         
       </div>
 
         
       </section>
       
-     
+     <Footersmall />
     </>
   );
 }
