@@ -41,11 +41,11 @@ export default function Index() {
 
             <section className="mt-48 md:mt-40 pb-40 relative bg-orange-200">
         <div
-          className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
+          className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20 bg-orange-200"
           style={{ transform: "translateZ(0)" }}
         >
           <svg
-            className="absolute bottom-0 overflow-hidden"
+            className="absolute bottom-0 overflow-hidden bg-orange-200"
             xmlns="http://www.w3.org/2000/svg"
             preserveAspectRatio="none"
             version="1.1"
@@ -55,7 +55,7 @@ export default function Index() {
           >
             <polygon
               className="text-blueGray-100 fill-current"
-              points="2560 0 2560 100 0 100"
+              points="2560 0 2560 100 0 100"shit 
             ></polygon>
           </svg>
         </div>
@@ -74,7 +74,7 @@ export default function Index() {
                     preserveAspectRatio="none"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 583 95"
-                    className="absolute left-0 w-full block h-95-px -top-94-px"
+                    className="absolute left-0 w-full block h-95-px -top-94-px "
                   >
                     <polygon
                       points="-30,95 583,95 583,65"
